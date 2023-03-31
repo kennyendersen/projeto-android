@@ -50,7 +50,6 @@ header > p {
     font-family: var(--fonte-padrao);
     color: white;
     font-size: 1.2em;
-    text-align: center;
     max-width: 600px;
     margin: auto;
     padding-right: 10px;
@@ -66,19 +65,16 @@ nav {
 }
 
 nav > a {
-    font-family: var(--fonte-padrao);
     color: var(--cor1);
     font-weight: bold;
+    padding: 10px;
     text-decoration: none;
-    padding-right: 10px;
-    padding-left: 10px;
+    border-radius: 5px;
     transition-duration: 0.2s;
 }
 
 nav > a:hover {
     background-color: var(--cor3);
-    padding: 10px;
-    border-radius: 5px;
     color: var(--cor5);
 }
 
