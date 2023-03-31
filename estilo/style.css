@@ -195,3 +195,23 @@ footer > p > a:hover {
     color: var(--cor2);
     text-decoration: underline;
 }
+
+div.menuprincipal {
+    text-align: center;
+    padding: 10px;
+}
+
+
+div a.menu{
+    text-decoration: none;
+    color: black;
+}
+
+div a.menu:hover {
+    text-decoration: underline;
+}
+
+div a.menu::after {
+    content: '\00A0\2B06'
+}
+
