@@ -134,11 +134,11 @@ main strong {
     color: var(--cor3);
 }
 
-img {
+main img {
     width: 100%;
 }
 
-img.pequena {
+main img.pequena {
     max-width: 350px;
     margin: auto;
     display: block;
